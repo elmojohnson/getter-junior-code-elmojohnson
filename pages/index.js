@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 
-const index = () => {
+const Home = () => {
   const router = useRouter(); // Used for routing
   return (
     <>
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;

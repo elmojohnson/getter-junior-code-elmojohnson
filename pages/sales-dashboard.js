@@ -6,7 +6,7 @@ import Container from "../components/Container";
 import Head from "next/head";
 import Footer from "../components/Footer";
 
-const salesDashboard = () => {
+const SalesDashboard = () => {
   // Initial states
   const [orders, setOrders] = useState([]);
   const [labels, setLabels] = useState([]);
@@ -60,4 +60,4 @@ const salesDashboard = () => {
   );
 };
 
-export default salesDashboard;
+export default SalesDashboard;
